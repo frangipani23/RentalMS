@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Business Owner Dashboard</title>
+</head>
+<body>
+
+<header>
+    <div class="ribbon">
+        <div class="ribbon-content">
+            <a href="index.html" class="logo-button">Home</a>
+            <div class="user-buttons">
+                <!-- Add logout or other user-related buttons if needed -->
+            </div>
+            <div class="nav-buttons">
+                <a href="#" class="nav-button">About Us</a>
+                <a href="#" class="nav-button">Contact Us</a>
+                <a href="#" class="nav-button">FAQ</a>
+            </div>
+        </div>
+    </div>
+</header>
+
+<main>
+    <section class="analytics-section">
+        <div class="rental-info">
+            <h2>Rental Information</h2>
+            <p>Units Rented Out: <span id="unitsRented"> <!-- Dynamically populate this --></span></p>
+            <p>Available Units: <span id="availableUnits"> <!-- Dynamically populate this --></span></p>
+        </div>
+
+        <div class="booking-button">
+            <button id="bookingButton" onclick="viewBookings()">View Bookings</button>
+        </div>
+    </section>
+</main>
+
+<script>
+    function viewBookings() {
+        // Add logic to navigate to the page displaying booking references
+        // For example, window.location.href = "booking_references.html";
+    }
+</script>
+
+</body>
+</html>

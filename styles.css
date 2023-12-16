@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f1ea; /* Light sand color */
+}
+
+header {
+    background-color: #004080; /* Deep ocean blue */
+    color: #fff;
+    padding: 10px 0;
+}
+
+.ribbon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.ribbon-content {
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.logo-button {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.user-buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.login-signup-button {
+    padding: 10px 20px;
+    background-color: #ffd700; /* Gold color */
+    color: #004080; /* Deep ocean blue */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.nav-buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-button {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+/* Beach-themed styles for main content */
+h1, p {
+    color: #004080; /* Deep ocean blue */
+}
+

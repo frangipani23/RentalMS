@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Business Profile Template</title>
+</head>
+<body>
+
+<header>
+    <div class="ribbon">
+        <div class="ribbon-content">
+            <a href="index.html" class="logo-button">Home</a>
+            <div class="user-buttons">
+                <!-- Add logout or other user-related buttons if needed -->
+            </div>
+            <div class="nav-buttons">
+                <a href="#" class="nav-button">About Us</a>
+                <a href="#" class="nav-button">Contact Us</a>
+                <a href="#" class="nav-button">FAQ</a>
+            </div>
+        </div>
+    </div>
+</header>
+
+<main>
+    <section class="equipment-section">
+        <div class="equipment-window">
+            <h2>Equipment 1</h2>
+            <p>Available Quantity: <!-- Dynamically populate this --></p>
+            <label for="quantityEquipment1">Select Quantity:</label>
+            <input type="number" id="quantityEquipment1" name="quantityEquipment1" min="0">
+        </div>
+
+        <div class="equipment-window">
+            <h2>Equipment 2</h2>
+            <p>Available Quantity: <!-- Dynamically populate this --></p>
+            <label for="quantityEquipment2">Select Quantity:</label>
+            <input type="number" id="quantityEquipment2" name="quantityEquipment2" min="0">
+        </div>
+
+        <div class="equipment-window">
+            <h2>Equipment 3</h2>
+            <p>Available Quantity: <!-- Dynamically populate this --></p>
+            <label for="quantityEquipment3">Select Quantity:</label>
+            <input type="number" id="quantityEquipment3" name="quantityEquipment3" min="0">
+        </div>
+    </section>
+
+    <section class="customer-section">
+        <h2>Customer Information</h2>
+        <form action="#" method="POST" id="customerInfoForm">
+            <label for="customerName">Name:</label>
+            <input type="text" id="customerName" name="customerName" required>
+
+            <label for="customerEmail">Email Address:</label>
+            <input type="email" id="customerEmail" name="customerEmail" required>
+
+            <label for="customerMobile">Mobile Number:</label>
+            <input type="tel" id="customerMobile" name="customerMobile" required>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <section class="date-section">
+        <h2>Select Date</h2>
+        <!-- Add a date picker or calendar component here -->
+        <input type="date" id="selectedDate" name="selectedDate" required>
+    </section>
+
+    <section class="time-section">
+        <h2>Select Time Slot</h2>
+        <select id="timeSlot" name="timeSlot" required>
+            <option value="0600-0800">06:00 AM - 08:00 AM</option>
+            <option value="0800-1000">08:00 AM - 10:00 AM</option>
+            <option value="1000-1200">10:00 AM - 12:00 PM</option>
+	    <option value="1200-1400">12:00 PM - 14:00 PM</option>
+	    <option value="1400-1600">14:00 PM - 16:00 PM</option>
+	    <option value="1600-1800">16:00 PM - 18:00 PM</option>
+	    <option value="1800-2000">18:00 PM - 20:00 PM</option>
+            <option value="2000-2200">20:00 PM - 10:00 PM</option>
+        </select>
+    </section>
+</main>
+
+</body>
+</html>
